@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/line_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="70dp"
+    android:paddingVertical="50dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/qwe">
+
+    <Button
+        android:id="@+id/openLearnNewWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:onClick="openLearnNewWord"
+        android:text="Learn new words"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:background="#33ffffff"
+        />
+
+
+    <Button
+        android:id="@+id/openCheckAllWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:onClick="openCheckAllWord"
+        android:text="Check all words"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:background="#77ffffff"/>
+
+    <Button
+        android:id="@+id/openAddNewWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:onClick="openAddNewWord"
+        android:text="Add new word"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:background="#88ffffff"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
