@@ -1,6 +1,6 @@
 # My-Leitner-system
 I have made this app for myself. I often learn English words using the Leitner system.
-But cardboard boards sometimes annoy me. And I thought I can make this app so that I can learn an English word on my phone, by my own algorithm
+But cardboard cards sometimes annoy me. And I thought I can make this app so that I can learn an English word on my phone, by my own algorithm
 
 The app have 3 function:
 
