@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="100dp"
+    tools:context=".activity.CheckAllWord"
+    android:background="@drawable/qwe">
+
+    <TextView
+        android:id="@+id/textViewCheckAllWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="5"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColorHint="#000000"
+        android:background="#88ffffff"/>
+
+    <EditText
+        android:id="@+id/editTextCheckAllWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="5"
+        android:hint="write here translate this word"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColorHint="#000000"
+        android:background="#88ffffff"/>
+
+    <Button
+        android:id="@+id/getNextOldWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="5"
+        android:onClick="getNextOldWord"
+        android:text="next"
+        android:textSize="26sp"
+        android:background="#88ffffff"/>
+
+    <Button
+        android:id="@+id/getBackOnMainPageFromCAW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:onClick="getBackOnMainPageFromCAW"
+        android:text="get back on main page"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:background="#77ffffff"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
